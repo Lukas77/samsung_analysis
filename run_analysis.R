@@ -31,4 +31,4 @@ total_clean <- cbind(subject_total, total_labels, total[, stdormean])
 
 #Compute the mean of each value and create new tidy dataset
 tidy <- total_clean %>% group_by(Subject, Activity) %>% summarise_each(funs(mean))
-write.table(tidy, file = "../tidy.txt", row.name=FALSE)
+write.table(tidy, file = "tidy.txt", row.name=FALSE)
