@@ -1,6 +1,7 @@
 #CodeBook.md
 
 The data for this dataset was taken from [Human Activity Recognition Using Smartphones Dataset](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones#). The following transformations were made:
+
 1. train and test datasets were merged
 2. Subject and Activity variables were merged with hte measured data
 3. only the measurements on the mean and standard deviation for each measurement were taken
